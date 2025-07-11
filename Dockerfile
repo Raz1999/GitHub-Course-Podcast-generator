@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y \
     python3.10 \
     python3-pip \
     git
-    curl
+
 
 RUN python3.10 -m pip install --upgrade pip && \
     python3.10 -m pip install PyYAML
