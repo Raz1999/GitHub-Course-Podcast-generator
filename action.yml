@@ -1,12 +1,12 @@
-name: 'Podcast Generator'
-author: 'Raz Abasdid'
-description: 'Generates a feed for Podcast a YAML file'
+name: "Podcast Generator"
+author: "Raz Abasdid"
+description: "Generates a feed for Podcast a YAML file"
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: "docker"
+  image: "Dockerfile"
 branding:
-  icon: 'git-branch'
-  color: 'red'
+  icon: "git-branch"
+  color: "red"
 inputs:
   email:
     description: The commiter's email address
