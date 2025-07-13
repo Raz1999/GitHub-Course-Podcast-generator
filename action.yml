@@ -1,5 +1,5 @@
 name: "Podcast Generator"
-author: "Raz Abasdid"
+author: "Ray Villalobos"
 description: "Generates a feed for Podcast a YAML file"
 runs:
   using: "docker"
@@ -15,4 +15,4 @@ inputs:
   name:
     description: The committer's name
     required: true
-    default: ${{ github.actor }}
+    default: ${{ github.actor }}@localhost
